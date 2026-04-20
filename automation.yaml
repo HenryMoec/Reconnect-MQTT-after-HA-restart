@@ -1,0 +1,8 @@
+alias: Zendure Wakeup via Local API
+description: ""
+triggers:
+  - event: start
+    trigger: homeassistant
+actions:
+  - delay: "00:02:00"
+  - action: shell_command.wakeup_zendure_1
