@@ -1,0 +1,2 @@
+shell_command:
+  wakeup_zendure_1: 'curl -X POST http://IP/rpc -H "Content-Type: application/json" -d "{\"sn\": \"SN\", \"method\": \"HA.Mqtt.SetConfig\", \"params\": {\"config\": {\"enable\": true, \"server\": \"IP MQTT BROKER\", \"port\": 1883, \"protocol\": \"mqtt\", \"username\": \"MQTTUSERNAME\", \"password\": \"MQTTPASSWORT\"}}}"'
