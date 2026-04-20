@@ -12,6 +12,6 @@ Setup for automatically MQTT reconnection after Home Assistant restart
 Now after restart of Home Assistant your device will automatically reconnected to your MQTT Broker.
 
 
-Needs:
+Requirements:
 - RESTful API (zenZDK)
 - device must have a static IP
