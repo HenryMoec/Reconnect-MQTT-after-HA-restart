@@ -9,4 +9,4 @@ Setup for automatically MQTT reconnection after Home Assistant restart
 
 2. Create a new automation in HA and add Code from automation.yaml in your automation
 
-Now after restart of Home Assistant your device will automatically reconnected to MQTT Broker.
+Now after restart of Home Assistant your device will automatically reconnected to your MQTT Broker.
