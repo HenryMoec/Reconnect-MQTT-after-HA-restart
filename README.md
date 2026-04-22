@@ -15,3 +15,6 @@ Now after restart of Home Assistant your device will automatically reconnected t
 Requirements:
 - RESTful API (zenZDK)
 - device must have a static IP
+
+Attention:
+- The MQTT status in the Zendure App can be different from the real status. If MQTT status is "off" in the App, it will stay on off, even the MQTT communication is working.
