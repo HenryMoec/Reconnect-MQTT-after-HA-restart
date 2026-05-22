@@ -1,4 +1,7 @@
-Setup for automatically MQTT reconnection after Home Assistant restart
+Setup for automatically MQTT reconnection after Home Assistant restart and activation of MQTT if the devices set to HEMS.
+
+UPDATE:
+The automation now also triggers if entities are unknow/unavailable, for reconnection also after activation of HEMS.
 
 1. Add Code from configuration.yaml in your configuration.yaml. Make sure that you insert the following informations:
    - IP: IP of your Zendure device
