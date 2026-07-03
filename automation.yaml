@@ -3,17 +3,6 @@ description: Löst beim Start, bei Nichterreichbarkeit oder HEMS-Statusänderung
 triggers:
   - trigger: homeassistant
     event: start
-  - trigger: state
-    entity_id:
-      - binary_sensor.l1_solarflow_2400_pro_hems_state
-      - binary_sensor.l2_solarflow_2400_ac_hems_state
-      - binary_sensor.l3_solarflow_2400_ac_hems_state
-  - trigger: state
-    entity_id:
-      - select.{SN}_acmode
-    to:
-      - unavailable
-      - unknown
 actions:
   - delay: "00:00:30"
   - action: shell_command.wakeup_zendure_1
